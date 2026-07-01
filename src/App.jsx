@@ -93,7 +93,7 @@ export default function App() {
       strategy: `Jestem Gosia Leitner — polska businesswoman i modelka. Zadanie: "${goal.text}". Postęp: ${goal.progress}%. Kontekst: ${goal.aiContext}. Daj strategię w 3-4 punktach jak domknąć to w tym tygodniu. Po polsku.`,
     };
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
+      const res = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ model: "claude-sonnet-4-6", max_tokens: 1000, messages: [{ role: "user", content: prompts[mode] }] }),
