@@ -89,7 +89,7 @@ const INITIAL_GOALS = [
     steps: [{ id: "14a", text: "Kontakt z ekipą ✓", done: true }, { id: "14b", text: "Spotkanie Michał Narkiewicz (wt 30.06 20:00)", done: false }, { id: "14c", text: "Otrzymać wycenę", done: false }, { id: "14d", text: "Podpisać zlecenie", done: false }, { id: "14e", text: "Nadzorować prace", done: false }],
     aiContext: "Naprawa ogrodu i płotu przed wynajmem domu w Izabelinie." },
   { id: 15, category: "dom", priority: "high", text: "🏠 Oczyścić dom i przygotować do najmu", status: "todo", progress: 0,
-    steps: [{ id: "15a", text: "Lista rzeczy do oddania/wyrzucenia", done: false }, { id: "15b", text: "Wywieźć rzeczy", done: false }, { id: "15c", text: "Sprzątanie generalne", done: false }, { id: "15d", text: "Zdjęcia do ogłoszenia", done: false }, { id: "15e", text: "Wystawić ogłoszenie", done: false }],
+    steps: [{ id: "15a", text: "Lista rzeczy do oddania/wyrzucenia", done: true }, { id: "15b", text: "Wywieźć rzeczy", done: true }, { id: "15c", text: "Sprzątanie generalne (kuchnia, salon, hol górny 50%)", done: true }, { id: "15d", text: "Zdjęcia do ogłoszenia", done: false }, { id: "15e", text: "Wystawić ogłoszenie", done: false }],
     aiContext: "Przygotowanie domu w Izabelinie do wynajmu." },
   { id: 16, category: "dom", priority: "high", text: "🔨 Ursus — montaż mebli (śr 13:00–17:00)", status: "todo", progress: 0,
     steps: [{ id: "16a", text: "Potwierdzić godzinę z ekipą", done: false }, { id: "16b", text: "Pojechać na budowę o 13:00", done: false }, { id: "16c", text: "Zaakceptować montaż", done: false }],
